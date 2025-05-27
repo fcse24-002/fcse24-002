@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <header>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NOVA MEN's FOOTWEAR | Reviews</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <button class="mobile-menu-toggle" style="display: none;">☰</button>
+
+        <div class="logo">
+            <img src="images/logogoggogogo.png" alt="logo">
+        </div>
+ 
+        <div>
+             <h1>NOVA MEN's FOOTWEAR </h1>
+        
+ 
+         <nav>
+             <ul>
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="sale.html">Footwear On Sale</a></li>
+                 <li><a href="collection.html">Collections</a></li>
+                 <li><a href="services.html">Services</a></li>
+                 <li><a href="contactus.html">Contact Us</a></a></li>
+                 <li><a href="reviews.html">Customer Feedback</a></li>
+             </ul>
+         </nav>
+     </div>
+     </header>
+    
+     <script>
+        const smallmenu = document.querySelector('.smallmenu');
+        const menu = document.querySelector('.menu');
+
+        smallmenu.addEventListener('click', () => {
+            menu.classList.toggle('active');
+            smallmenu.classList.toggle('active');
+        });
+    </script>
+     
+    <body>
+
+        <section class="showcase">
+            
+            <div class="showcase-text">
+                <h2>We Value Your Thoughts At NovaMen, So please Help Us Grow Together As One</h2>
+                <h3></h3>
+                
+            </div>
+        </section>
+
+        <section class="show-container">
+           <main class="collectionzzzz">
+        </style>
+    
+    
+        <form class="feedback-form" action="mailto:ditsianeata@gmail.com" method="POST">
+            <h2>Customer Feedback Form</h2>
+            
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="rating">Overall Satisfaction:</label>
+                <select id="rating" name="rating" required>
+                    <option value="">Please select</option>
+                    <option value="5">Very Satisfied</option>
+                    <option value="4">Satisfied</option>
+                    <option value="3">Neutral</option>
+                    <option value="2">Dissatisfied</option>
+                    <option value="1">Very Dissatisfied</option>
+                </select>
+            </div>
+    
+            <div class="form-group">
+                <label>FeedBack Type</label>
+                <div class="rating-options">
+                    <label>
+                        <input type="radio" name="feedback-type" value="general" required> General
+                    </label>
+                    <label>
+                        <input type="radio" name="feedback-type" value="complaint"> Complaint
+                    </label>
+                    <label>
+                        <input type="radio" name="feedback-type" value="complement"> Complement
+                    </label>
+                </div>
+            </div>
+    
+            <div class="form-group">
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" required></textarea> 
+            </div>
+    
+            <button type="submit" class="submit-btn">Submit Feedback</button>
+        </form>
+         </main>
+        </section>
+    </body>
+    </section>
+    <footer>
+            <p> &copy; 2025 | Nova Men's Footwear. All rights reserved. </p>
+    </footer>
+
+</html>
